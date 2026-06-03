@@ -1,0 +1,41 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.app-card {
+  width: min(100%, 720px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #dbe4f0;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  text-align: center;
+}
+
+.app-badge {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.app-card h1 {
+  margin: 0 0 12px;
+  color: #0f172a;
+  font-size: clamp(32px, 5vw, 48px);
+}
+
+.app-card p {
+  margin: 0;
+  color: #475569;
+  font-size: 18px;
+  line-height: 1.6;
+}
