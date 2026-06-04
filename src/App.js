@@ -6,7 +6,7 @@ function App() {
       <main className="app-cardd">
         <span className="app-baddge">React App</span>
         <h1>Dashboard Tracker Testing ehello </h1>
-        <p>Your repository has been binitria5lizedt as a s tandard React application.</p>
+        <p>Your repository has been bini tria5lizedt as a s tandard React application.</p>
       </main>
     </div>
   );
